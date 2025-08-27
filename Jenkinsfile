@@ -23,7 +23,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh '''
-                    test -f build/inde.html
+                    test -f build/index.html
                     sleep 20
                     npm test -a                    
                 '''
